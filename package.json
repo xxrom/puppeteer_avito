@@ -2,11 +2,16 @@
   "name": "puppeteer_avito",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
-,
-  "nodemonConfig": { "delay": "1" },
-  "scripts": 
-  {
-        "dev": "nodemon --exec python3 main.py ./main.py" 
-  }, "dependencies": { "nodemon": "*" } 
+  "license": "MIT",
+  "nodemonConfig": {
+    "delay": "1"
+  },
+  "scripts": {
+    "dev": "node -v && nodemon --exec 'node -v && node main.js --harmony' ./main.js"
+  },
+  "dependencies": {
+    "nodemon": "*",
+    "puppeteer": "^8.0.0"
+  },
+  "author": "nchernyshov <xpom55@mail.ru>"
 }
