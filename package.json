@@ -7,9 +7,11 @@
     "delay": "1"
   },
   "scripts": {
-    "dev": "node -v && nodemon --exec 'node -v && node main.js --harmony' ./main.js"
+    "dev": "backpack"
   },
   "dependencies": {
+    "backpack-core": "^0.8.4",
+    "node-fetch": "^2.6.1",
     "nodemon": "*",
     "puppeteer": "^8.0.0"
   },
